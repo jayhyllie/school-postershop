@@ -112,8 +112,12 @@ main > * {
 .main_poster-large > *:not(img, button) {
     padding: 1rem;
 }
+.main_poster-large p {
+    height: 90px;
+    overflow: hidden;
+}
 .main_poster-large button {
-    margin: 3em 1em 1em;
+    margin: 3em 1em;
     padding: 1em;
 }
 
